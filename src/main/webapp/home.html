@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUP-HUB</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/daisyui@3.0.0/dist/full.css">
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <!-- Navbar -->
+    <nav class="navbar bg-base-300 shadow-lg">
+        <div class="flex-1">
+            <a href="#" class="btn btn-ghost normal-case text-xl text-red-800">PUPHUB</a>
+        </div>
+        <div class="flex-none">
+            <a href="login.jsp" class="btn bg-red-800 text-white hover:bg-red-600 mr-2">Login</a>
+            <a href="register.jsp" class="btn bg-red-800 text-white hover:bg-red-600">Sign Up</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <section class="relative min-h-screen flex items-center justify-center">
+        <!-- Blurred Background Images -->
+        <div class="absolute top-0 left-0 w-full h-full flex">
+            <img src="Picture 1.jpeg" alt="Picture 1" class="w-1/3 h-full object-cover blur-md opacity-40">
+            <img src="Picture 2.jpeg" alt="Picture 2" class="w-1/3 h-full object-cover blur-md opacity-40">
+            <img src="Picture 3.jpg" alt="Picture 3" class="w-1/3 h-full object-cover blur-md opacity-40">
+        </div>
+
+        <!-- Focused Content -->
+        <div class="relative z-10 text-center bg-white bg-opacity-90 p-10 rounded-lg shadow-lg">
+            <h1 class="text-5xl font-bold text-gray-800">Welcome to PUP-HUB!</h1>
+            <p class="py-6 text-gray-600">
+                Dito pwede kayo magsalsalan at kung ano
+                 pang ibang uri ng droga gusto niyong gawin
+                  kahit ano poide rito lodi.
+            </p>
+            <a href="register.jsp" 
+               class="btn bg-red-800 text-white hover:bg-red-600  text-lg font-bold">
+                Bombaaa
+            </a>
+        </div>
+    </section>
+</body>
+</html>

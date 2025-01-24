@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-        
-    <wb-module deploy-name="pupub">
                 
+    
+    
+    <wb-module deploy-name="pupub">
+                                
+        
+        
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
                 
-        <property name="context-root" value="pupub"/>
-                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/"/>
+                                
+        
+        
         <property name="java-output-path" value="/pupub/build/classes"/>
-            
-    </wb-module>
+        <property name="context-root" value="/"/>
+                            
     
+    
+    </wb-module>
+            
+
+
 </project-modules>

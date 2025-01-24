@@ -3,6 +3,7 @@
 <html>
 <head>
     <title>Hello JSP</title>
+    <%System.out.println("hello"); %>
 </head>
 <body>
     <h1>Hello from JSP!</h1>
